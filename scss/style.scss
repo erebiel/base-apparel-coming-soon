@@ -1,7 +1,41 @@
 @import 'components';
 
 body{
+    height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
+    background: $gradient;
+    font-weight: 400;
+    color: $primary-color
+}
+
+.maincontent, .mainform {
+    text-align: center;
+    
+}
+
+.maincontent{
+    padding: 50px 20px;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    line-height: 3rem;
+}
+
+.img-desktop{
+    display: none;
+}
+
+.accent{
+    font-weight: 600;
+    color: $neutral-color;
+}
+
+footer{
+    margin-top: 20%;
 }
 
 .attribution {
@@ -14,4 +48,11 @@ body{
 }
 
 @media (min-width: 1024px) {
+    .img-mobile{
+        display: none;
+    }
+
+    .img-desktop{
+        display: inline;
+    }
 }

@@ -1,5 +1,38 @@
 body {
+  height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(135deg, white, #fff5f5);
+  font-weight: 400;
+  color: #ce9797;
+}
+
+.maincontent, .mainform {
+  text-align: center;
+}
+
+.maincontent {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  line-height: 3rem;
+}
+
+.img-desktop {
+  display: none;
+}
+
+.accent {
+  font-weight: 600;
+  color: #413a3a;
+}
+
+footer {
+  margin-top: 20%;
 }
 
 .attribution {
@@ -9,5 +42,14 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (min-width: 1024px) {
+  .img-mobile {
+    display: none;
+  }
+  .img-desktop {
+    display: inline;
+  }
 }
 /*# sourceMappingURL=style.css.map */
