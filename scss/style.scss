@@ -10,17 +10,16 @@ body{
     color: $primary-color
 }
 
-.maincontent{
+.maintext{
     text-align: center;
     padding: 60px 30px;
-    
 }
 
 h1{
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 300;
-    letter-spacing: 0.4rem;
+    letter-spacing: 11px;
     line-height: 42px;
 }
 p{
@@ -59,7 +58,7 @@ input[type=email]{
 }
 
 footer{
-    margin-top: 20%;
+    margin-top: 70px;
 }
 
 .attribution {
@@ -72,11 +71,47 @@ footer{
 }
 
 @media (min-width: 1024px) {
+
+    body{
+        background: $gradient fixed;
+        font-weight: 400;
+        font-size: $font-size;
+        line-height: 28px;
+        color: $primary-color
+    }
+
+    h1{
+        font-size: 64px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 17px;
+        line-height: 64px;
+    }
+
+    .maintext{
+        text-align: left;
+    }
+
+    .maincontent{
+        padding: 50px 150px
+    }
+
+    .img-logo{
+        width: 158px;
+        height: 33px;
+    }
+
+    section{
+        display: flex;
+        
+    }
+
     .img-mobile{
         display: none;
     }
 
     .img-desktop{
         display: inline;
+        width: 610px;
     }
 }
