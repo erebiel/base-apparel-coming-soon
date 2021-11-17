@@ -1,34 +1,57 @@
 body {
   height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
-  background: linear-gradient(135deg, white, #fff5f5);
+  background: linear-gradient(135deg, white, #fff5f5) fixed;
   font-weight: 400;
-  color: #ce9797;
-}
-
-.maincontent, .mainform {
-  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #CE9898;
 }
 
 .maincontent {
-  padding: 50px 20px;
+  text-align: center;
+  padding: 60px 30px;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.4rem;
-  line-height: 3rem;
+  line-height: 42px;
+}
+
+p {
+  padding-bottom: 20px;
 }
 
 .img-desktop {
   display: none;
 }
 
+.img-mobile {
+  width: 100%;
+}
+
+.img-logo {
+  width: 100px;
+  margin: 30px;
+}
+
 .accent {
   font-weight: 600;
-  color: #413a3a;
+  color: #423A3A;
+}
+
+input[type=email] {
+  color: #CE9898;
+  border: #CE9898 solid 1px;
+  padding: 10px;
+  line-height: 28px;
+}
+
+.input-group-append {
+  border-radius: 50%;
 }
 
 footer {
